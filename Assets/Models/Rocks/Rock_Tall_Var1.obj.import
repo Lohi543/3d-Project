@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://b2ii346a08wao"
+path="res://.godot/imported/Rock_Tall_Var1.obj-a9cc36ee6de00f22b5833e6159a5b15e.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Rock_Tall_Var1.obj-a9cc36ee6de00f22b5833e6159a5b15e.mesh"]
+
+source_file="res://Assets/Models/Rocks/Rock_Tall_Var1.obj"
+dest_files=["res://.godot/imported/Rock_Tall_Var1.obj-a9cc36ee6de00f22b5833e6159a5b15e.mesh", "res://.godot/imported/Rock_Tall_Var1.obj-a9cc36ee6de00f22b5833e6159a5b15e.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(-23, 0, 22)
+optimize_mesh=true
+force_disable_mesh_compression=false

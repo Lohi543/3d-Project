@@ -1,0 +1,18 @@
+[gd_resource type="StandardMaterial3D" load_steps=6 format=3 uid="uid://bnn8btc4nc3k6"]
+
+[ext_resource type="Texture2D" uid="uid://bvjc3p0j06x15" path="res://Assets/Tetures/TetureFiles/ground_with_rocks_03_2k/ground_with_rocks_03_2k/ground_with_rocks_03_color_2k.png" id="1_e26a7"]
+[ext_resource type="Texture2D" uid="uid://espyyqkbe1xi" path="res://Assets/Tetures/TetureFiles/ground_with_rocks_03_2k/ground_with_rocks_03_2k/ground_with_rocks_03_ambient_occlussion_2k.png" id="2_al01t"]
+[ext_resource type="Texture2D" uid="uid://b4f30a6a56v85" path="res://Assets/Tetures/TetureFiles/ground_with_rocks_03_2k/ground_with_rocks_03_2k/ground_with_rocks_03_height_2k.png" id="3_wj7h8"]
+[ext_resource type="Texture2D" uid="uid://dlqe80sryrlem" path="res://Assets/Tetures/TetureFiles/ground_with_rocks_03_2k/ground_with_rocks_03_2k/ground_with_rocks_03_normal_gl_2k.png" id="4_yoeo7"]
+[ext_resource type="Texture2D" uid="uid://0sv6x4t78w4u" path="res://Assets/Tetures/TetureFiles/ground_with_rocks_03_2k/ground_with_rocks_03_2k/ground_with_rocks_03_roughness_2k.png" id="5_q8of3"]
+
+[resource]
+albedo_texture = ExtResource("1_e26a7")
+roughness_texture = ExtResource("5_q8of3")
+normal_enabled = true
+normal_texture = ExtResource("4_yoeo7")
+ao_enabled = true
+ao_texture = ExtResource("2_al01t")
+heightmap_enabled = true
+heightmap_texture = ExtResource("3_wj7h8")
+uv1_triplanar = true

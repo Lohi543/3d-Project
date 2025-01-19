@@ -1,0 +1,21 @@
+[gd_resource type="StandardMaterial3D" load_steps=7 format=3 uid="uid://bfn5d77qv77xq"]
+
+[ext_resource type="Texture2D" uid="uid://cyq6wjm3xxgkb" path="res://Assets/Tetures/TetureFiles/industrial_wall_6_2k/industrial_wall_6_2k/industrial_wall_6_baseColor_2k.png" id="1_wn7wr"]
+[ext_resource type="Texture2D" uid="uid://cepalj6rujoaj" path="res://Assets/Tetures/TetureFiles/industrial_wall_6_2k/industrial_wall_6_2k/industrial_wall_6_ambientOcclusion_2k.png" id="2_6p5m7"]
+[ext_resource type="Texture2D" uid="uid://bvgtcembx11v7" path="res://Assets/Tetures/TetureFiles/industrial_wall_6_2k/industrial_wall_6_2k/industrial_wall_6_height_2k.png" id="3_gcuhp"]
+[ext_resource type="Texture2D" uid="uid://d21ajiyow7kv1" path="res://Assets/Tetures/TetureFiles/industrial_wall_6_2k/industrial_wall_6_2k/industrial_wall_6_metallic_2k.png" id="4_slxfe"]
+[ext_resource type="Texture2D" uid="uid://cmlrdusfbpm46" path="res://Assets/Tetures/TetureFiles/industrial_wall_6_2k/industrial_wall_6_2k/industrial_wall_6_normal_dx_2k.png" id="5_vvyxm"]
+[ext_resource type="Texture2D" uid="uid://baiwijue371gm" path="res://Assets/Tetures/TetureFiles/industrial_wall_6_2k/industrial_wall_6_2k/industrial_wall_6_roughness_2k.png" id="6_x11xt"]
+
+[resource]
+albedo_texture = ExtResource("1_wn7wr")
+metallic = 1.0
+metallic_texture = ExtResource("4_slxfe")
+roughness_texture = ExtResource("6_x11xt")
+normal_enabled = true
+normal_texture = ExtResource("5_vvyxm")
+ao_enabled = true
+ao_texture = ExtResource("2_6p5m7")
+heightmap_enabled = true
+heightmap_texture = ExtResource("3_gcuhp")
+uv1_triplanar = true

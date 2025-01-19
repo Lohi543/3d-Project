@@ -1,0 +1,20 @@
+[gd_resource type="StandardMaterial3D" load_steps=6 format=3 uid="uid://c7ke2qt1v3qmr"]
+
+[ext_resource type="Texture2D" uid="uid://evrm6f5i2ir4" path="res://Assets/Tetures/TetureFiles/concrete_wall_02_2k/concrete_wall_02_color_2k.png" id="1_hywfp"]
+[ext_resource type="Texture2D" uid="uid://d0ha4x5awklv1" path="res://Assets/Tetures/TetureFiles/concrete_wall_02_2k/concrete_wall_02_ambient_occlusion_2k.png" id="2_cfkqs"]
+[ext_resource type="Texture2D" uid="uid://b0ym4ym601fua" path="res://Assets/Tetures/TetureFiles/concrete_wall_02_2k/concrete_wall_02_height_2k.png" id="3_yjhb5"]
+[ext_resource type="Texture2D" uid="uid://dx62nbd483wio" path="res://Assets/Tetures/TetureFiles/concrete_wall_02_2k/concrete_wall_02_normal_gl_2k.png" id="4_ny3f7"]
+[ext_resource type="Texture2D" uid="uid://b5jlixpd1iwif" path="res://Assets/Tetures/TetureFiles/concrete_wall_02_2k/concrete_wall_02_roughness_2k.png" id="5_vgerh"]
+
+[resource]
+albedo_color = Color(0.399319, 0.472275, 0.505548, 1)
+albedo_texture = ExtResource("1_hywfp")
+roughness_texture = ExtResource("5_vgerh")
+normal_enabled = true
+normal_scale = 2.8
+normal_texture = ExtResource("4_ny3f7")
+ao_enabled = true
+ao_texture = ExtResource("2_cfkqs")
+heightmap_enabled = true
+heightmap_texture = ExtResource("3_yjhb5")
+uv1_triplanar = true

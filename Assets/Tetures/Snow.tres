@@ -1,0 +1,18 @@
+[gd_resource type="StandardMaterial3D" load_steps=6 format=3 uid="uid://bc8mfyfwblrj3"]
+
+[ext_resource type="Texture2D" uid="uid://b120bovhtm0o3" path="res://Assets/Tetures/TetureFiles/snow_01_2k/snow_01_2k/snow_01_color_2k.png" id="1_b861x"]
+[ext_resource type="Texture2D" uid="uid://bgovsxk642kh0" path="res://Assets/Tetures/TetureFiles/snow_01_2k/snow_01_2k/snow_01_ambient_occlusion_2k.png" id="2_b8tor"]
+[ext_resource type="Texture2D" uid="uid://m4ywaqmm1igc" path="res://Assets/Tetures/TetureFiles/snow_01_2k/snow_01_2k/snow_01_height_2k.png" id="3_s6lt2"]
+[ext_resource type="Texture2D" uid="uid://ba5fchgk6ejcn" path="res://Assets/Tetures/TetureFiles/snow_01_2k/snow_01_2k/snow_01_normal_gl_2k.png" id="4_5v5ar"]
+[ext_resource type="Texture2D" uid="uid://241hys5s47y6" path="res://Assets/Tetures/TetureFiles/snow_01_2k/snow_01_2k/snow_01_roughness_2k.png" id="5_y1g0t"]
+
+[resource]
+albedo_texture = ExtResource("1_b861x")
+roughness_texture = ExtResource("5_y1g0t")
+normal_enabled = true
+normal_texture = ExtResource("4_5v5ar")
+ao_enabled = true
+ao_texture = ExtResource("2_b8tor")
+heightmap_enabled = true
+heightmap_texture = ExtResource("3_s6lt2")
+uv1_triplanar = true

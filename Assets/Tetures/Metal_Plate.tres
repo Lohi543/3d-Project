@@ -1,0 +1,21 @@
+[gd_resource type="StandardMaterial3D" load_steps=7 format=3 uid="uid://dily5rl80febu"]
+
+[ext_resource type="Texture2D" uid="uid://db3etwo6xfkiq" path="res://Assets/Tetures/TetureFiles/metal_plates_01_2k/metal_plates_01_2k/metal_plates_01_color_2k.png" id="1_pi1gs"]
+[ext_resource type="Texture2D" uid="uid://ce7ya8y7ens3c" path="res://Assets/Tetures/TetureFiles/metal_plates_01_2k/metal_plates_01_2k/metal_plates_01_ambient_occlusion_2k.png" id="2_y4qpg"]
+[ext_resource type="Texture2D" uid="uid://c64ls7vmkh5rf" path="res://Assets/Tetures/TetureFiles/metal_plates_01_2k/metal_plates_01_2k/metal_plates_01_height_2k.png" id="3_my0b5"]
+[ext_resource type="Texture2D" uid="uid://boglij15p8wog" path="res://Assets/Tetures/TetureFiles/metal_plates_01_2k/metal_plates_01_2k/metal_plates_01_metallic_2k.png" id="4_8o4e2"]
+[ext_resource type="Texture2D" uid="uid://b73shf7ef2qkw" path="res://Assets/Tetures/TetureFiles/metal_plates_01_2k/metal_plates_01_2k/metal_plates_01_normal_gl_2k.png" id="5_lvjhw"]
+[ext_resource type="Texture2D" uid="uid://cqpt2wkdi0ee7" path="res://Assets/Tetures/TetureFiles/metal_plates_01_2k/metal_plates_01_2k/metal_plates_01_roughness_2k.png" id="6_qopeo"]
+
+[resource]
+albedo_texture = ExtResource("1_pi1gs")
+metallic = 1.0
+metallic_texture = ExtResource("4_8o4e2")
+roughness_texture = ExtResource("6_qopeo")
+normal_enabled = true
+normal_texture = ExtResource("5_lvjhw")
+ao_enabled = true
+ao_texture = ExtResource("2_y4qpg")
+heightmap_enabled = true
+heightmap_texture = ExtResource("3_my0b5")
+uv1_triplanar = true

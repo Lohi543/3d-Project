@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://cuj5ot3ytd700"
+path="res://.godot/imported/Floor_Dungon.obj-c2b5be20fd91d733d01b29e8cb3add5c.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Floor_Dungon.obj-c2b5be20fd91d733d01b29e8cb3add5c.mesh"]
+
+source_file="res://Assets/Tetures/Floor_Dungon.obj"
+dest_files=["res://.godot/imported/Floor_Dungon.obj-c2b5be20fd91d733d01b29e8cb3add5c.mesh", "res://.godot/imported/Floor_Dungon.obj-c2b5be20fd91d733d01b29e8cb3add5c.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

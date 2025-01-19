@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://d4k3ffwsxyt2k"
+path="res://.godot/imported/Walls_Dungon.obj-0b4b7905aca4a25ae9172026e29df380.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Walls_Dungon.obj-0b4b7905aca4a25ae9172026e29df380.mesh"]
+
+source_file="res://Assets/Tetures/Walls_Dungon.obj"
+dest_files=["res://.godot/imported/Walls_Dungon.obj-0b4b7905aca4a25ae9172026e29df380.mesh", "res://.godot/imported/Walls_Dungon.obj-0b4b7905aca4a25ae9172026e29df380.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false
